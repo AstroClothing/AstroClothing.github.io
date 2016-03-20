@@ -19,6 +19,8 @@
     
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="style.css" type="text/css">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,7 +57,16 @@
                         <a href="#"><i class="fa fa-female fa-2x"></i></a>
                     </li>
                 </ul>
+                
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <form id="form" class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Search for ...">
+                  </div>
+                  <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </form>
+                    </li>
                     <li>
                         <a href="#"><font size="5px"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></font></a>
                     </li>
@@ -70,10 +81,10 @@
     <div class="container">
 
         <div class="row">
-
+            
             <div class="col-md-3">
-                <p class="lead">Categories</p>
-                <div class="list-group">
+               <font color="#b1b1b1"><p class="lead">Categories</p></font>
+                <div class="list-group"   id="menu">
                     <a href="#" class="list-group-item">Just Added!</a>
                     <a href="#" class="list-group-item">All Items</a>
                     <a href="#" class="list-group-item">Sale</a>
@@ -119,7 +130,7 @@
                         <div class="thumbnail">
                             <img src="http://placehold.it/320x150" alt="">
                             <div class="caption">
-                                <h4 class="pull-right">$24.99</h4>
+                                <h4 class="pull-right">$18.99</h4>
                                 <h4><a href="#">First Product</a>
                                 </h4>
                                 <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
@@ -224,14 +235,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <h4><a href="#">Like this template?</a>
-                        </h4>
-                        <p>If you like this template, then check out <a target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this tutorial</a> on how to build a working review system for your online store!</p>
-                        <a class="btn btn-primary" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">View Tutorial</a>
-                    </div>
-
+                    
                 </div>
 
             </div>
@@ -241,18 +245,17 @@
     </div>
     <!-- /.container -->
 
-    <div class="container">
+    <div class="container" id="foot">
 
-        <hr>
 
         <!-- Footer -->
-        <footer>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Astro Clothing 2016</p>
-                </div>
+                    <center><font color="#dbdbdb">
+                        <i class="fa fa-instagram fa-3x pad"></i>
+                        <i class="fa fa-facebook-square fa-3x pad"></i>
+                        <i class="fa fa-twitter-square fa-3x pad"></i>
+                        <p>Copyright &copy; Astro Clothing 2016</p></font></center>
             </div>
-        </footer>
 
     </div>
     <!-- /.container -->
