@@ -23,3 +23,11 @@ body {
 .pad {
     padding-right: 5px;
 }
+
+.fa-mars {
+  color: rgb(76, 96, 208)   ;
+}
+
+.fa-venus {
+  color: rgb(159, 40, 136)   ;
+}
